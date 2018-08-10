@@ -1,7 +1,9 @@
 #!/usr/bin/python
 
-a=3
-b=4
-add=a+b
+def add(a,b):
+	add=a+b
+	return add
 
-print add
+x=5
+y=10
+print add(x,y)
