@@ -4,6 +4,6 @@ def add(a,b):
 	add=a+b
 	return add
 
-x=10
+x=5
 y=10
 print add(x,y)
