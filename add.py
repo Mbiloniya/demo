@@ -1,9 +1,11 @@
 #!/usr/bin/python
 
-def add(a,b):
-	add=a+b
-	return add
+#def add(a,b):
+#	add=a+b
+#	return add
+
+func=lambda a,b:a+b
 
 x=10
 y=10
-print add(x,y)
+print func(x,y)
